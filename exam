@@ -1,0 +1,19 @@
+#!/usr/bin/python3
+num1 = input("Please select first number: ")
+num2 = input("Please select second number: ")
+opration = input("Please select operation desire: -, + , * , / **: ")
+if  opration == "+":
+    result = float(num1) + float(num2)
+elif opration == "-":
+    result = float(num1) - float(num2)  
+elif opration == "*":
+    result = float(num1) * float(num2)    
+elif opration == "/":
+    result = float(num1) / float(num2)
+elif opration == "**":
+    result = float(num1) ** float(num2)
+    
+else:
+    print("Your select not avalable")
+
+print(result)
